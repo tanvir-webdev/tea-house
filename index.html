@@ -18,13 +18,85 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+              },
+              fontFamily: {
+                manrope: ["Manrope", "sans-serif"]
+              },
+            },
+          },
         }
       </script>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header class="max-w-screen-xl mx-auto">
+        <!-- banner section -->
+        <div class="text-center mt-16 mb-32 mx-5 md:flex md:justify-between md:text-left md:items-center">
+            <!-- banner text -->
+            <div>
+                <h1 class="text-7xl font-extrabold mb-7">
+                    It's good <br class="hidden md:block"> tea time at the <br class="hidden md:block"> tea house
+                </h1>
+                <p class="font-medium text-[#777] mb-7">
+                    Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
+                </p>
+                <button class="text-white bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-4 py-5 rounded-lg">
+                    Explore More <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <!-- banner img -->
+            <div class="relative">
+                <img class="w-full" src="assests/banner.png" alt="">
+                <div class="flex bg-white shadow-xl absolute px-6 py-4 items-center left-20 top-80 rounded-lg">
+                    <div>
+                        <i class="fa-solid fa-star text-4xl text-[#ffbe33]"></i>
+                    </div>
+                    <div class="text-left ml-3">
+                        <h3 class="font-extrabold text-3xl">
+                            5.00
+                        </h3>
+                        <p class="font-semibold text-[#777]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto">
+        <!-- our featured products section -->
+        <div class="mx-5 my-32">
+            <!-- featured title and description -->
+            <div class="text-center my-12">
+                <h2 class="text-[2.8rem] font-extrabold">
+                    Our Featured Products
+                </h2>
+                <p class="font-medium text-[#777] my-5">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                </p>
+            </div>
+            <!-- featured card -->
+            <div class="grid grid-cols-2 gap-6 md:grid-cols-4">
+                <div class="bg-gradient-to-b from-[#F4F4F4] ... rounded-lg text-center p-7">
+                    <img class="w-1/2 mx-auto mb-7" src="assests/tea-1.png" alt="">
+                    <h3 class="font-extrabold text-2xl my-3">Milk Tea</h3>
+                    <p class="font-medium text-[#777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-gradient-to-b from-[#F4F4F4] ... rounded-lg text-center p-7">
+                    <img class="w-1/2 mx-auto mb-7" src="assests/tea-2.png" alt="">
+                    <h3 class="font-extrabold text-2xl my-3">Black Tea</h3>
+                    <p class="font-medium text-[#777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-gradient-to-b from-[#F4F4F4] ... rounded-lg text-center p-7">
+                    <img class="w-1/2 mx-auto mb-7" src="assests/tea-3.png" alt="">
+                    <h3 class="font-extrabold text-2xl my-3">Lemon Tea</h3>
+                    <p class="font-medium text-[#777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class="bg-gradient-to-b from-[#F4F4F4] ... rounded-lg text-center p-7">
+                    <img class="w-1/2 mx-auto mb-7" src="assests/tea-4.png" alt="">
+                    <h3 class="font-extrabold text-2xl my-3">Green Tea</h3>
+                    <p class="font-medium text-[#777]">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
